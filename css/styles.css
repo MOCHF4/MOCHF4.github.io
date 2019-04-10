@@ -1,0 +1,266 @@
+/* start body */
+body {
+    color: black;
+    font-family: helvetica ,arial ,sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background:url(https://id-test-11.slatic.net/p/7/sepatu-pria-formal-kerja-kantor-kerja-pria-modern-kulit-asli-azcost-oxford-skin-black-9639-65491538-75c3dc270dfdf5fef10b1ac63a7f0e8f.jpg);
+    background-size: 50%
+  }
+@media only screen and (max-width:600px){
+    body { 
+        font-size: 16px;
+    }
+.menu-primer li{
+    border-right: 1px solid #333333;
+    width:100%;
+    }
+}
+/* end body */
+
+/* start debug */
+.bg-blue{
+    background-color: blue;
+}
+.bg-red{
+    background-color: red
+}
+/* end debug */
+
+/* start container */
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+.container-full{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* end container */
+
+/* start logo */
+.logo{
+    text-align: center;
+}
+/* end logo */
+
+/* start menu primer */
+.menu-primer ul{
+  
+    border-radius: 9px;
+    
+
+}
+.menu-primer li {
+    display: inline-block;
+    margin:0 -4px;
+    font-size: 25px;
+    padding: 10px 20px;
+    
+}
+.menu-primer a {
+    color: black;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase
+}
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/* End Menu Primer */ 
+
+/* start main */
+.main-home-one {
+    float: left;
+    width: 50%
+}
+/* start main */
+.main-home-two {
+    float: right;
+    width: 50%
+}
+
+/* start effect */
+.snip1573 {
+    background-color: #000;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    max-width: 30%;
+    min-width: 230px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .snip1573 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  
+  .snip1573:before,
+  .snip1573:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background-color: #000000;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    content: '';
+    opacity: 0.9;
+    z-index: 1;
+  }
+  
+  .snip1573:before {
+    -webkit-transform: skew(45deg) translateX(-155%);
+    transform: skew(45deg) translateX(-155%);
+  }
+  
+  .snip1573:after {
+    -webkit-transform: skew(45deg) translateX(155%);
+    transform: skew(45deg) translateX(155%);
+  }
+  
+  .snip1573 img {
+    backface-visibility: hidden;
+    max-width: 100%;
+    vertical-align: top;
+  }
+  
+  .snip1573 figcaption {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    -webkit-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+  }
+  
+  .snip1573 h3 {
+    background-color: #000000;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
+  
+  .snip1573 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+  
+  .snip1573:hover > img,
+  .snip1573.hover > img {
+    opacity: 0.5;
+  }
+  
+  .snip1573:hover:before,
+  .snip1573.hover:before {
+    -webkit-transform: skew(45deg) translateX(-55%);
+    transform: skew(45deg) translateX(-55%);
+  }
+  
+  .snip1573:hover:after,
+  .snip1573.hover:after {
+    -webkit-transform: skew(45deg) translateX(55%);
+    transform: skew(45deg) translateX(55%);
+  }
+  
+  .snip1573:hover figcaption,
+  .snip1573.hover figcaption {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+/* end effect */
+/* start effect */
+.snip1555 {
+  font-family: 'Muli', Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 1em;
+  margin: 15px 40px;
+  text-transform: uppercase;
+}
+.snip1555 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  padding: 12px 15px;
+  position: relative;
+}
+.snip1555 li a {
+  color: #fff;
+  text-decoration: none;
+}
+.snip1555 li:before,
+.snip1555 li:after {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  height: 2px;
+  width: 35%;
+  background-color: #528cb3;
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+.snip1555 li:before {
+  top: 0;
+  left: 0;
+}
+.snip1555 li:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1555 li:hover:before,
+.snip1555 li.hover:before,
+.snip1555 li:hover:after,
+.snip1555 li.hover:after {
+  opacity: 1;
+}
+.snip1555 li:hover:before,
+.snip1555 li.hover:before {
+  left: 65%;
+}
+.snip1555 li:hover:after,
+.snip1555 li.hover:after {
+  right: 65%;
+}
+/* Demo purposes only */
+body {
+  background-color: #212121;
+}
+/* end effect*/
